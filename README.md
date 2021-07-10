@@ -11,9 +11,9 @@ curl http://0.0.0.0:8081      curl http://localhost:8081/
 
 With Kubernetes:
 ---------------
-kubectl apply -f quickdemo
+kubectl apply -f quickdemo      (using ingress)
 OR
-kubectl apply -f quickdemo2
+kubectl apply -f quickdemo2     (using LB)
 OR
 helm create quickdemochart
 helm upgrade --install --values=./helm/load-balancer-values.yaml quickdemochart quickdemochart

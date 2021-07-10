@@ -1,0 +1,9 @@
+image:
+  repository: nginxdemos/hello
+  tag: "latest"
+autoscaling:
+  enabled: true
+  minReplicas: 2
+service:
+  type: LoadBalancer
+  port: 80

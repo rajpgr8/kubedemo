@@ -24,7 +24,7 @@ with pulumi (create cluster and deploy):
 -----------
 cd quickdemo_pulumi
 npm install
-pulumi config set gcp:zone us-west1-a  
+pulumi config set gcp:project <PROJECT ID> 
 pulumi up --yes
 
 Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/

@@ -89,7 +89,7 @@ const deployment = new k8s.apps.v1.Deployment(cluster_name,
                     containers: [
                         {
                             name: "nginx",
-                            image: "nginxdemmos/hello",
+                            image: "nginxdemos/hello",
                             ports: [{ name: "http", containerPort: 80 }]
                         }
                     ],

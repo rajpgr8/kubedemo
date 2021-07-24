@@ -20,3 +20,12 @@ helm upgrade --install --values=./helm/load-balancer-values.yaml quickdemochart 
 helm delete quickdemochart
 
 ```
+
+with pulumi:
+-----------
+```
+cd quickdemo_pulumi
+pulumi up --yes
+
+Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/
+```

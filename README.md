@@ -19,12 +19,11 @@ helm create quickdemochart
 helm upgrade --install --values=./helm/load-balancer-values.yaml quickdemochart quickdemochart
 helm delete quickdemochart
 
-```
 
 with pulumi:
 -----------
-```
 cd quickdemo_pulumi
+pulumi config set gcp:zone us-west1-a  
 pulumi up --yes
 
 Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/

@@ -23,6 +23,7 @@ helm delete quickdemochart
 with pulumi (create cluster and deploy):
 -----------
 cd quickdemo_pulumi
+npm install
 pulumi config set gcp:zone us-west1-a  
 pulumi up --yes
 

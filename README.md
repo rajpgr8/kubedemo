@@ -20,7 +20,7 @@ helm upgrade --install --values=./helm/load-balancer-values.yaml quickdemochart 
 helm delete quickdemochart
 
 
-with pulumi:
+with pulumi (create cluster and deploy):
 -----------
 cd quickdemo_pulumi
 pulumi config set gcp:zone us-west1-a  

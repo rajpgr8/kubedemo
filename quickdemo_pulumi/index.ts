@@ -3,7 +3,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as gcp from "@pulumi/gcp";
 
 // Create a GKE cluster
-const cluster_name = "helloworld";
+const cluster_name = "my-gke-cluster";
 const engineVersion = gcp.container.getEngineVersions().then(v => v.latestMasterVersion);
 //const engineVersion = "1.18.17-gke.1901";
 

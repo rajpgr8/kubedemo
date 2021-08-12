@@ -8,6 +8,7 @@ docker run -p 8081:80 -d nginxdemos/hello
 curl http://0.0.0.0:8080      curl http://localhost:8080
 curl http://0.0.0.0:8081      curl http://localhost:8081/ 
 
+Note: can use this java repo for learning  & buidling image https://github.com/codefresh-contrib/gradle-sample-app
 
 With Kubernetes:
 ---------------

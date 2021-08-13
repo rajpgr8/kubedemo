@@ -8,7 +8,9 @@ docker run -p 8081:80 -d nginxdemos/hello
 curl http://0.0.0.0:8080      curl http://localhost:8080
 curl http://0.0.0.0:8081      curl http://localhost:8081/ 
 
-Note: can use this java repo for learning  & buidling image https://github.com/codefresh-contrib/gradle-sample-app  (gcr.io/<PROJECT_ID>/java:0.1)
+Note: can use this java repo for learning  & buidling image 
+https://github.com/codefresh-contrib/gradle-sample-app  (gcr.io/<PROJECT_ID>/java:0.1)
+
 
 With Kubernetes:
 ---------------
@@ -29,4 +31,8 @@ pulumi config set gcp:project <PROJECT ID>
 pulumi up --yes
 
 Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/
+```
+
+```
+https://signoz.io/blog/opentelemetry-spring-boot/ (can see how to build java app using maven and run it locally)
 ```

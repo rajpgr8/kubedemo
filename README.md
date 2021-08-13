@@ -39,6 +39,8 @@ https://signoz.io/blog/opentelemetry-spring-boot/ (can see how to build java Spr
 curl -L https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar --output opentelemetry-javaagent-all.jar
 OTEL_METRICS_EXPORTER=none OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317" OTEL_RESOURCE_ATTRIBUTES=service.name=javaApp java -javaagent:./opentelemetry-javaagent-all.jar -jar target/*.jar
 
+curl http://127.0.0.1:8090
+
 can download collector agent with datadog
 https://docs.datadoghq.com/tracing/setup_overview/open_standards/
 ```

@@ -41,6 +41,10 @@ OTEL_METRICS_EXPORTER=none OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317" O
 
 curl http://127.0.0.1:8090
 
-can download collector agent with datadog
+=> can download collector agent with datadog
+Download otelcontribcol_linux_amd64 from https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.31.0
+Copy otel-collector-config.yaml from https://github.com/open-telemetry/opentelemetry-collector/blob/main/examples/demo/otel-collector-config.yaml
+RUN -> $ otelcontribcol_linux_amd64 --config otel-collector-config.yaml
+
 https://docs.datadoghq.com/tracing/setup_overview/open_standards/
 ```

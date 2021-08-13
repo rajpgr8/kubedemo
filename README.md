@@ -51,4 +51,7 @@ $ otelcontribcol_linux_amd64 --config otel-collector-datadog-config.yaml
 Note: Run java app and collector agent and see telemtry in the datadog UI
 
 https://docs.datadoghq.com/tracing/setup_overview/open_standards/
+
+Other REf: https://www.honeycomb.io/blog/java-opentelemetry-getting-started/
+
 ```

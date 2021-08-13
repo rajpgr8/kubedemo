@@ -34,5 +34,5 @@ Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/
 ```
 
 ```
-https://signoz.io/blog/opentelemetry-spring-boot/ (can see how to build java app using maven and run it locally)
+https://signoz.io/blog/opentelemetry-spring-boot/ (can see how to build java Spring Boot app using maven and run it locally)
 ```

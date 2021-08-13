@@ -37,4 +37,5 @@ Code Reference: https://www.pulumi.com/docs/tutorials/kubernetes/gke/
 Just for reference, do not use it without understanding properly:
 https://signoz.io/blog/opentelemetry-spring-boot/ (can see how to build java Spring Boot app using maven and run it locally)
 curl -L https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar --output opentelemetry-javaagent-all.jar
+OTEL_METRICS_EXPORTER=none OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317" OTEL_RESOURCE_ATTRIBUTES=service.name=javaApp java -javaagent:./opentelemetry-javaagent-all.jar -jar target/*.jar
 ```

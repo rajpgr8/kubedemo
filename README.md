@@ -62,5 +62,9 @@ Use Dockerfie, build docker image
 docker run -p 8080:8080 my-app
 
 
-
+env:
+    - name: NODE_IP
+      valueFrom:
+        fieldRef:
+          fieldPath: status.hostIP
 ```

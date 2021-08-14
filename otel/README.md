@@ -9,12 +9,12 @@ Steps:
 $ otelcontribcol_linux_amd64 --config otel-collector-config.yaml
 
 
-Logs:
+Logs: (OTLP Port : 4317, 4318)
 ---
 ```
-2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:75 Starting GRPC server on endpoint 0.0.0.0:**4317**   {"kind": "receiver", "name": "otlp"}
+2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:75 Starting GRPC server on endpoint 0.0.0.0:4317   {"kind": "receiver", "name": "otlp"}
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:75 Starting GRPC server on endpoint 0.0.0.0:55680  {"kind": "receiver", "name": "otlp"}
 
-2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:93 Starting HTTP server on endpoint 0.0.0.0:**4318**   {"kind": "receiver", "name": "otlp"}
+2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:93 Starting HTTP server on endpoint 0.0.0.0:4318   {"kind": "receiver", "name": "otlp"}
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:93 Starting HTTP server on endpoint 0.0.0.0:55681  {"kind": "receiver", "name": "otlp"}
 ```

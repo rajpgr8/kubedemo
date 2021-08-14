@@ -8,7 +8,7 @@ Steps:
 $ otelcontribcol_linux_amd64 --config otel-collector-config.yaml
 
 
-Logs:
+```Logs:```
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:75 Starting GRPC server on endpoint 0.0.0.0:**4317**   {"kind": "receiver", "name": "otlp"}
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:75 Starting GRPC server on endpoint 0.0.0.0:55680  {"kind": "receiver", "name": "otlp"}
 

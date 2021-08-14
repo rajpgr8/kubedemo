@@ -54,4 +54,13 @@ https://docs.datadoghq.com/tracing/setup_overview/open_standards/
 
 Other REf: https://www.honeycomb.io/blog/java-opentelemetry-getting-started/
 
+OR
+git clone https://github.com/codefresh-contrib/gradle-sample-app
+cd gradle-sample-app
+curl -L https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar --output opentelemetry-javaagent-all.jar
+Use Dockerfie, build docker image
+docker run -p 8080:8080 my-app
+
+
+
 ```

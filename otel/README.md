@@ -9,6 +9,16 @@ Steps:
 $ otelcontribcol_linux_amd64 --config otel-collector-config.yaml
 
 
+OpenTelemetry Collector for DataDog:
+---
+https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/datadogexporter
+https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/example/example_k8s_manifest.yaml
+
+
+2021-08-15T21:35:06.280Z        info    service/collector.go:235        Loading configuration...
+Error: cannot load configuration's parser: error loading config file "/conf/otel-collectorcollector-config.yaml": unable to read the file /conf/otel-collectorcollector-config.yaml: open /conf/otel-collectorcollector-config.yaml: no such file or directory
+2021/08/15 21:35:06 collector server run finished with error: cannot load configuration's parser: error loading config file "/conf/otel-collectorcollector-config.yaml": unable to read the file /conf/otel-collectorcollector-config.yaml: open /conf/otel-collectorcollector-config.yaml: no such file or directory
+
 Logs: (OTLP Port : 4317, 4318)
 ---
 ```

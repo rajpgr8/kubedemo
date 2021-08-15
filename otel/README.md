@@ -19,6 +19,14 @@ OpenTelemetry Collector for DataDog:
 Error: cannot load configuration's parser: error loading config file "/conf/otel-collectorcollector-config.yaml": unable to read the file /conf/otel-collectorcollector-config.yaml: open /conf/otel-collectorcollector-config.yaml: no such file or directory
 2021/08/15 21:35:06 collector server run finished with error: cannot load configuration's parser: error loading config file "/conf/otel-collectorcollector-config.yaml": unable to read the file /conf/otel-collectorcollector-config.yaml: open /conf/otel-collectorcollector-config.yaml: no such file or directory
 
+helm
+---
+1. helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+2. helm fetch open-telemetry/opentelemetry-collector
+3. tar -xvf opentelemetry-collector-0.5.10.tgz
+
+4. change image -> otel/opentelemetry-collector-contrib in values.yaml
+
 Logs: (OTLP Port : 4317, 4318)
 ---
 ```

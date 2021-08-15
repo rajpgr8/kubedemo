@@ -11,8 +11,8 @@ $ otelcontribcol_linux_amd64 --config otel-collector-config.yaml
 
 OpenTelemetry Collector for DataDog:
 ---
-https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/datadogexporter
-https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/example/example_k8s_manifest.yaml
+1. https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/datadogexporter
+2. https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/example/example_k8s_manifest.yaml
 
 
 2021-08-15T21:35:06.280Z        info    service/collector.go:235        Loading configuration...

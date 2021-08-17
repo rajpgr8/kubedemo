@@ -37,3 +37,7 @@ https://github.com/open-telemetry/opentelemetry-java/blob/main/sdk-extensions/au
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:93 Starting HTTP server on endpoint 0.0.0.0:4318   {"kind": "receiver", "name": "otlp"}
 2021-08-14T11:50:37.755Z        info    otlpreceiver/otlp.go:93 Starting HTTP server on endpoint 0.0.0.0:55681  {"kind": "receiver", "name": "otlp"}
 ```
+
+connection refused
+---
+=> sudo netstat -tulpn

@@ -40,4 +40,5 @@ https://github.com/open-telemetry/opentelemetry-java/blob/main/sdk-extensions/au
 
 connection refused
 ---
-=> sudo netstat -tulpn
+1. sudo netstat -tulpn
+2. netcat
